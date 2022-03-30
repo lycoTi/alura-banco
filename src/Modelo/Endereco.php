@@ -2,7 +2,16 @@
 
 namespace Alura\Banco\Modelo;
 
-class Endereco
+/**
+ * class Endereco
+ * @package Alura\Banco\Modelo
+ * @property-read string $cidade
+ * @property-read string $rua
+ * @property-read string $numero
+ * @property-read string $bairro
+ */
+
+final class Endereco
 {
     private $cidade;
     private $bairro;

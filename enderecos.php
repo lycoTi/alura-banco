@@ -8,5 +8,8 @@ require_once "autoload.php";
 $umEndereco = new Endereco("petropolis", "igarape", "trizidela", "123b");
 $outroEndereco = new Endereco("pvh", "joa santana", "mexico", "20f");
 
+echo $umEndereco->cidade;
+exit();
+
 echo $umEndereco . PHP_EOL;
 echo $outroEndereco;

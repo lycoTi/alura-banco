@@ -24,6 +24,6 @@ class Titular extends Pessoa implements Autenticavel
 
     public function podeAutenticar(string $senha): bool
     {
-        return $senha === "abcd";
+        return $senha === "abcde";
     }
 }

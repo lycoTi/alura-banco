@@ -13,6 +13,6 @@ class Diretor extends Funcionario implements Autenticavel
 
     public function podeAutenticar(string $senha): bool
     {
-        return $senha === '1234';
+        return $senha === "1234";
     }
 }

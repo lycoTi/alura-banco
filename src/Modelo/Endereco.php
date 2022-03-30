@@ -9,8 +9,12 @@ class Endereco
     private $rua;
     private $numero;
 
-    public function __construct(string $cidade, string $bairro, string $rua, string $numero)
-    {
+    public function __construct(
+        string $cidade,
+        string $bairro,
+        string $rua,
+        string $numero
+    ) {
         $this->cidade = $cidade;
         $this->bairro = $bairro;
         $this->rua = $rua;
